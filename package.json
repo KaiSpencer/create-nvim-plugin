@@ -1,11 +1,11 @@
 {
   "name": "create-nvim-plugin",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "",
   "main": "bin/index.js",
   "bin": {
-    "create-nvim-app": "./bin/index.js"
-  },
+    "create-nvim-plugin": "./bin/index.js"
+  }, 
   "scripts": {
     "build": "tsc",
     "generate": "node ./lib/bin.js",

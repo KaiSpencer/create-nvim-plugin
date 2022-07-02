@@ -2,6 +2,8 @@
 
 A tool to quickly scaffold neovim lua plugins.
 
+![](example.gif)
+
 ## Usage
 
 Launch an interactive prompt

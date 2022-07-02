@@ -25,5 +25,10 @@ function M.greet()
   print(greeting)
 end
 
+--[[ Another public API function ]]
+function M.generic_greet()
+  print("Hello, there!")
+end
+
 M.options = nil
 return M

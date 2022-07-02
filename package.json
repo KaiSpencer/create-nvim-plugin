@@ -1,0 +1,20 @@
+{
+  "name": "create-nvim-plugin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "generate": "node ./lib/bin.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.0",
+    "enquirer": "^2.3.6",
+    "hygen": "^6.2.7",
+    "logger": "link:hygen/lib/logger",
+    "typescript": "^4.7.4"
+  }
+}

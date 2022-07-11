@@ -26,9 +26,6 @@
     "after:bump": "pnpm run build",
     "after:release": "echo Successfully released ${name} v${version} to ${repo.repository}."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.0",
     "enquirer": "^2.3.6",

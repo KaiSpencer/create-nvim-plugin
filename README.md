@@ -6,9 +6,13 @@ A tool to quickly scaffold neovim lua plugins.
 
 ## Usage
 
-Launch an interactive prompt
+Launch an interactive prompt using your favourite package manager.
 
 `npx create-nvim-plugin`
+
+`yarn create nvim-plugin`
+
+`pnpm create create-nvim-plugin`
 
 Enter the plugin name and the scaffolding will begin
 
